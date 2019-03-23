@@ -21,10 +21,21 @@ namespace org.me
 asset Data identified by dataId{
   o String dataId
   o Boolean fortrade
+  --> User owner
 }
 
-participant user identified by userId{
+participant User identified by userId{
   o String userId
   o String userName
+}
+
+
+transaction TradeData {
+  --> Data data
+  --> User user
+}
+
+event DataNotification {
+  --> Data data
 }
 
