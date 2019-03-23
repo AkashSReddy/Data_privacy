@@ -32,7 +32,7 @@ participant User identified by userId{
 
 transaction TradeData {
   --> Data data
-  --> User user
+  --> User newOwner
 }
 
 event DataNotification {
