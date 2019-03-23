@@ -16,7 +16,7 @@
  * Write your model definitions here
  */
 
-namespace org.me
+namespace org.me.cto
 
 asset Data identified by dataId{
   o String dataId
