@@ -17,3 +17,14 @@
  */
 
 namespace org.me
+
+asset Data identified by dataId{
+  o String dataId
+  o Boolean fortrade
+}
+
+participant user identified by userId{
+  o String userId
+  o String userName
+}
+
