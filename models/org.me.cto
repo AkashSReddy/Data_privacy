@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-/**
- * Write your model definitions here
- */
+/*
+  This is the model for trading data on the blockchain network 
+*/
 
 namespace org.me.cto
 
